@@ -1,0 +1,24 @@
+{
+  "name": "nba",
+  "version": "1.0.0",
+  "description": "nba live terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nba",
+    "terminal"
+  ],
+  "author": "mangix",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^1.4.1",
+    "request": "^2.50.0",
+    "term-list": "^0.2.1",
+    "underscore": "^1.7.0"
+  },
+  "bin":{
+      "nbalive":"./bin/nbalive"
+  }
+}
