@@ -1,5 +1,5 @@
 # nbalive
-=======
+
 
 NBA live in terminal
 
