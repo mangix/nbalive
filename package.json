@@ -13,12 +13,13 @@
   "author": "mangix",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.5.0",
     "jsdom": "^1.4.1",
     "request": "^2.50.0",
     "term-list": "^0.2.1",
     "underscore": "^1.7.0"
   },
-  "bin":{
-      "nbalive":"./bin/nbalive"
+  "bin": {
+    "nbalive": "./bin/nbalive"
   }
 }
