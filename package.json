@@ -1,6 +1,6 @@
 {
   "name": "nbalive",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "nba live terminal",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "underscore": "^1.7.0"
   },
   "bin": {
-    "nbalive": "./bin/nbalive"
+    "nbalive": "./bin/nbalive.js"
   },
   "devDependencies": {},
   "repository": {
