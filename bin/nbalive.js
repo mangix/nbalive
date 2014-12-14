@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 var program = require('commander');
 var util = require("../lib/util");
+var fs = require("fs");
+var path = require("path");
 
 var defaultDate = util.format(new Date());
 
 program
-    .version(require("package")().version)
+    .version(JSON.parse(fs.readFileSync(path.join(__dirname, "../package.json"))).version)
     .option('-d, --date [date]', 'choose date', checkDate)
     .parse(process.argv);
 
