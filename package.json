@@ -1,6 +1,6 @@
 {
   "name": "nbalive",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "nba live terminal",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   "author": "mangix",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^0.18.0",
     "commander": "^2.5.0",
-    "jsdom": "^1.4.1",
     "request": "^2.50.0",
     "term-list": "^0.2.1",
     "underscore": "^1.7.0"
