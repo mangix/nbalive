@@ -1,6 +1,6 @@
 {
   "name": "nbalive",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "nba live terminal",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "dependencies": {
     "cheerio": "^0.18.0",
     "commander": "^2.5.0",
+    "package": "^1.0.1",
     "request": "^2.50.0",
     "term-grid": "^0.1.1",
     "term-list": "^0.2.1",

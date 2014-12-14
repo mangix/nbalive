@@ -5,7 +5,7 @@ var util = require("../lib/util");
 var defaultDate = util.format(new Date());
 
 program
-    .version('0.1.0')
+    .version(require("package")().version)
     .option('-d, --date [date]', 'choose date', checkDate)
     .parse(process.argv);
 
