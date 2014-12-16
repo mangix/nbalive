@@ -16,7 +16,7 @@
     "cheerio": "^0.18.0",
     "commander": "^2.5.0",
     "request": "^2.50.0",
-    "term-grid": "^0.1.3",
+    "term-grid": "^0.1.7",
     "term-list": "^0.2.1",
     "underscore": "^1.7.0"
   },

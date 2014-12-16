@@ -11,9 +11,9 @@ program
     .option('-d, --date [date]', 'choose date', checkDate)
     .parse(process.argv);
 
-var live = require("../lib/live");
+var app = require("../lib/app");
 
-live("hupu", program.date || defaultDate);
+app("hupu", program.date || defaultDate);
 
 
 function checkDate(aDate) {

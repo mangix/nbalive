@@ -1,2 +1,2 @@
-var Live = require("./lib/live");
+var Live = require("./lib/app");
 Live("hupu", null);
