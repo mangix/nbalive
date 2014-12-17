@@ -1,6 +1,6 @@
 {
   "name": "nbalive",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "nba live terminal",
   "main": "index.js",
   "scripts": {
