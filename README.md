@@ -8,8 +8,10 @@ NBA live in terminal.
 ![rect](https://github.com/mangix/nbalive/blob/master/img/statistic.png)
 
 ## Installation
+
 先安装[Node.js](http://nodejs.org/download/) ,然后
-	$ [sudo] npm install -g nbalive
+
+	$ npm install -g nbalive
 	
 ## Usage
 
