@@ -5,15 +5,20 @@ var fs = require("fs");
 var path = require("path");
 
 var defaultDate = util.format(new Date());
+var Rank = require('../lib/rank');
+var App = require("../lib/app");
 
 program
     .version(JSON.parse(fs.readFileSync(path.join(__dirname, "../package.json"))).version)
     .option('-d, --date [date]', 'choose date', checkDate)
+    .option('-r, --rank', 'show rank list')
     .parse(process.argv);
 
-var app = require("../lib/app");
-
-app("hupu", program.date || defaultDate);
+if (program.rank) {
+    Rank();
+} else {
+    App("hupu", program.date || defaultDate);
+}
 
 
 function checkDate(aDate) {
