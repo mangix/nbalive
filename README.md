@@ -14,16 +14,16 @@ NBA live in terminal.
 	$ npm install -g nbalive
 	
 ## Usage
-    ```
-        Usage: nbalive [options]
+   Usage: nbalive [options]
 
-          Options:
+   Options:
 
-          -h, --help         output usage information
-          -V, --version      output the version number
-          -d, --date [date]  choose date
-          -r, --rank         show rank list
-    ```
+        -h, --help         output usage information
+        -V, --version      output the version number
+        -d, --date [date]  choose date
+        -r, --rank         show rank list
+
+
 	$ nbalive  //当天赛程
 	$ nbalive -d 2014-12-01 //指定某天赛程
 	$ nbalive -r //查看排名
