@@ -14,6 +14,7 @@ NBA live in terminal.
 	$ npm install -g nbalive
 	
 ## Usage
+```bash
    Usage: nbalive [options]
 
    Options:
@@ -22,7 +23,7 @@ NBA live in terminal.
         -V, --version      output the version number
         -d, --date [date]  choose date
         -r, --rank         show rank list
-
+```
 
 	$ nbalive  //当天赛程
 	$ nbalive -d 2014-12-01 //指定某天赛程
