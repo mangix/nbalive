@@ -24,7 +24,7 @@ NBA live in terminal.
         -d, --date [date]  choose date
         -r, --rank         show rank list
 ```
-
+## Example
 	$ nbalive  //当天赛程
 	$ nbalive -d 2014-12-01 //指定某天赛程
 	$ nbalive -r //查看排名
